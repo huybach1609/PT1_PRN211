@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server = LAPTOP-A2LMIVVT; database=MyStock;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true"
+  }
+}

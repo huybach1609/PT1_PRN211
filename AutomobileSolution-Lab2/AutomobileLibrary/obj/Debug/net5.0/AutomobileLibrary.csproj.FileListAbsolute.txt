@@ -1,0 +1,5 @@
+D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution-Lab2\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.csproj.AssemblyReference.cache
+D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution-Lab2\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution-Lab2\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.AssemblyInfoInputs.cache
+D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution-Lab2\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.AssemblyInfo.cs
+D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution-Lab2\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.csproj.CoreCompileInputs.cache
