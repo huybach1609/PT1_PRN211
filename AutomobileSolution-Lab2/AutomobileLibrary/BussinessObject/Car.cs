@@ -17,11 +17,11 @@ namespace AutomobileLibrary.BussinessObject
 
         public Car(DataRow dr)
         {
-            CarID = Convert.ToInt32(dr[""]);
-            CarName= dr[""].ToString();
-            Manufacturer= dr[""].ToString();
-            Price= Convert.ToDecimal(dr[""]);
-            ReleaseYear= Convert.ToInt32(dr[""]);
+            CarID = Convert.ToInt32(dr["CarID"]);
+            CarName= dr["CarName"].ToString();
+            Manufacturer= dr["Manufacturer"].ToString();
+            Price= Convert.ToDecimal(dr["Price"]);
+            ReleaseYear= Convert.ToInt32(dr["ReleasedYear"]);
 
         }
 
