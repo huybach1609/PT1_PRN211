@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Runtime.InteropServices;
 using System.Text.Json;
 
@@ -51,6 +52,7 @@ namespace DataAccess
             member = ListMember.SingleOrDefault(x => x.MenberID == id);
             return member;
         }
+
         // create 
         public void Add(MemberObject member)
         {
@@ -92,6 +94,12 @@ namespace DataAccess
 
         }
 
+        internal MemberObject GetMemberByEP(string email, string password)
+        {
+            MemberObject member = null;
+            member = ListMember.SingleOrDefault(x => x.Email.Equals(email) && x.Password.Equals(password));
+            return member;
+        }
     }
 }
 

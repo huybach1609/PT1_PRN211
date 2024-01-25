@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PT1_PRN211",
+    "\\PT1_PRN211\\AutomobileSolution-Lab2",
+    "\\PT2_PRN211",
+    "\\PT2_PRN211\\Ass01Solution",
+    "\\PT2_PRN211\\Ass01Solution\\BusinessObject"
   ],
-  "SelectedNode": "\\AutomobileSolution.sln",
+  "SelectedNode": "\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileLibrary",
   "PreviewInSolutionExplorer": false
 }

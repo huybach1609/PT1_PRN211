@@ -15,15 +15,19 @@ namespace MyStoreWinApp
 {
     public partial class FormMemberDetail : Form
     {
-        public IMemberRepository memberRepository;
-        public bool insertOrUpdate; // 0 : insert, 1: update
-        public MemberObject member;
+        internal IMemberRepository memberRepository;
+        internal bool insertOrUpdate; // 0 : insert, 1: update
+        internal MemberObject member;
+        internal object listCountry;
+        internal object listCity;
 
         public FormMemberDetail() => InitializeComponent();
 
         // created by form
         private void FormMemberDetail_Load(object sender, EventArgs e)
         {
+            cbxCity.DataSource = listCity;
+            cbxCountry.DataSource = listCountry;
             txtID.Enabled = !insertOrUpdate;
             if (insertOrUpdate == true)
             {
