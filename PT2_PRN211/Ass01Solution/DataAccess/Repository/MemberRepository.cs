@@ -8,13 +8,15 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repository
 {
-    public class MemberRepository : IMemberRepository 
+    public class MemberRepository : IMemberRepository
     {
         public void Add(MemberObject member) => MemberDAO.Instance.Add(member);
 
         public void Delete(int id) => MemberDAO.Instance.Delete(id);
 
         public List<MemberObject> getListMember() => MemberDAO.Instance.getListMember();
+
+        public MemberObject GetMemberByEP(string email, string password) => MemberDAO.Instance.GetMemberByEP(email, password);
 
         public MemberObject GetMemberById(int id) => MemberDAO.Instance.GetMemberById(id);
 

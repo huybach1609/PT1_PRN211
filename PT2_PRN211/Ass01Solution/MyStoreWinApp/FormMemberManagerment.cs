@@ -19,12 +19,14 @@ namespace MyStoreWinApp
     public partial class FormMemberManagerment : Form
     {
 
-        IMemberRepository memberRepository1 = new MemberRepository();
+        public IMemberRepository memberRepository1;
         BindingSource bindingSource;
         List<MemberObject> memberList;
 
         List<string> cityList;
         List<string> countryList;
+
+        bool sortStatus = true; // true : sort name ascending, false : sort name decending
 
         public FormMemberManagerment()
         {
@@ -34,6 +36,7 @@ namespace MyStoreWinApp
         private void FormMemberManagerment_Load(object sender, EventArgs e)
         {
             btnDelete.Enabled = false;
+            btnSort.Enabled = false;
             LoadCityList();
             LoadCountryList();
         }
@@ -68,7 +71,9 @@ namespace MyStoreWinApp
                 Text = "Update member",
                 insertOrUpdate = true,
                 member = getMember(),
-                memberRepository = memberRepository1
+                memberRepository = memberRepository1,
+                listCity = cityList,
+                listCountry = countryList
             };
             if (form1.ShowDialog() == DialogResult.OK)
             {
@@ -127,6 +132,7 @@ namespace MyStoreWinApp
                 else
                 {
                     btnDelete.Enabled = true;
+                    btnSort.Enabled = true;
                 }
             }
             catch (Exception ex)
@@ -164,7 +170,10 @@ namespace MyStoreWinApp
             {
                 Text = "Add member",
                 insertOrUpdate = false,
-                memberRepository = memberRepository1
+                memberRepository = memberRepository1,
+                listCity = cityList,
+                listCountry = countryList
+
             };
             if (form1.ShowDialog() == DialogResult.OK)
             {
@@ -211,23 +220,30 @@ namespace MyStoreWinApp
 
         }
 
+        // reset memberlist clear all data form datagridview
         private void btnClear_Click(object sender, EventArgs e)
         {
-            dgvMember.DataSource = null;
+            //dgvMember.DataSource = null;
             txtSearchBox.Text = string.Empty;
             cbxCity.Text = string.Empty;
             cbxCountry.Text = string.Empty;
-            btnDelete.Enabled = false;
+            sortStatus = true;
+
             ClearText();
             LoadCityList();
             LoadCountryList();
+            memberList = new List<MemberObject>();
             LoadMemberList();
+
+            btnDelete.Enabled = false;
+            btnSort.Enabled = false;
+            //LoadMemberList();
         }
 
 
         private void cbxCity_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cbxCountry.Text= "none ";
+            cbxCountry.Text = "none ";
             if (memberList != null)
             {
                 string key = cbxCity.Text;
@@ -245,7 +261,7 @@ namespace MyStoreWinApp
         }
         private void cbxCountry_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cbxCity.Text= "none ";
+            cbxCity.Text = "none ";
             if (memberList != null)
             {
                 string key = cbxCountry.Text;
@@ -295,6 +311,24 @@ namespace MyStoreWinApp
             }
 
 
+        }
+
+        // sort function
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (sortStatus)
+            {
+                memberList.Sort(MemberObject.NameComparisonDesc);
+                btnSort.Text = "sort decending";
+
+            }
+            else
+            {
+                memberList.Sort(MemberObject.NameComparison);
+                btnSort.Text = "sort ascending";
+            }
+            sortStatus = !sortStatus;
+            LoadMemberList();
         }
     }
 }

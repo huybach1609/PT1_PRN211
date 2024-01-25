@@ -11,8 +11,10 @@ namespace DataAccess.Repository
     {
         List<MemberObject> getListMember();
         public MemberObject GetMemberById(int id);
+        public MemberObject GetMemberByEP(string email, string password);
         void Add(MemberObject member);
         void Update(MemberObject member);
         void Delete(int id);
+        
     }
 }

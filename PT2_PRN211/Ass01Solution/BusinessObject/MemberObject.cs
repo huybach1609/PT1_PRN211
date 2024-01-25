@@ -13,6 +13,7 @@ namespace BusinessObject
         public  string Country{ get; set; }
 
         public static Comparison<MemberObject> NameComparison = (m1, m2) => m1.MemberName.CompareTo(m2.MemberName);
+        public static Comparison<MemberObject> NameComparisonDesc = (m1, m2) => m2.MemberName.CompareTo(m1.MemberName);
 
     }
 }

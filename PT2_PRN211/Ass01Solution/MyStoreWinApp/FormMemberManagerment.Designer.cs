@@ -47,6 +47,7 @@
             txtID = new System.Windows.Forms.TextBox();
             lbPassword = new System.Windows.Forms.Label();
             panel3 = new System.Windows.Forms.Panel();
+            btnSort = new System.Windows.Forms.Button();
             label7 = new System.Windows.Forms.Label();
             btnClear = new System.Windows.Forms.Button();
             cbxCity = new System.Windows.Forms.ComboBox();
@@ -85,18 +86,18 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(txtID);
             panel1.Controls.Add(lbPassword);
-            panel1.Location = new System.Drawing.Point(6, 322);
-            panel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            panel1.Location = new System.Drawing.Point(3, 151);
+            panel1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(672, 723);
+            panel1.Size = new System.Drawing.Size(362, 339);
             panel1.TabIndex = 0;
             // 
             // button1
             // 
-            button1.Location = new System.Drawing.Point(266, 736);
-            button1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            button1.Location = new System.Drawing.Point(143, 345);
+            button1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(150, 70);
+            button1.Size = new System.Drawing.Size(81, 33);
             button1.TabIndex = 32;
             button1.Text = "Close";
             button1.UseVisualStyleBackColor = true;
@@ -104,26 +105,26 @@
             // 
             // txtCountry
             // 
-            txtCountry.Location = new System.Drawing.Point(139, 516);
-            txtCountry.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            txtCountry.Location = new System.Drawing.Point(75, 242);
+            txtCountry.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             txtCountry.Name = "txtCountry";
-            txtCountry.Size = new System.Drawing.Size(515, 39);
+            txtCountry.Size = new System.Drawing.Size(279, 23);
             txtCountry.TabIndex = 31;
             // 
             // txtCity
             // 
-            txtCity.Location = new System.Drawing.Point(139, 418);
-            txtCity.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            txtCity.Location = new System.Drawing.Point(75, 196);
+            txtCity.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             txtCity.Name = "txtCity";
-            txtCity.Size = new System.Drawing.Size(515, 39);
+            txtCity.Size = new System.Drawing.Size(279, 23);
             txtCity.TabIndex = 30;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new System.Drawing.Point(487, 629);
-            btnDelete.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            btnDelete.Location = new System.Drawing.Point(262, 295);
+            btnDelete.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new System.Drawing.Size(150, 70);
+            btnDelete.Size = new System.Drawing.Size(81, 33);
             btnDelete.TabIndex = 29;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
@@ -131,10 +132,10 @@
             // 
             // btnNew
             // 
-            btnNew.Location = new System.Drawing.Point(266, 629);
-            btnNew.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            btnNew.Location = new System.Drawing.Point(143, 295);
+            btnNew.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             btnNew.Name = "btnNew";
-            btnNew.Size = new System.Drawing.Size(150, 70);
+            btnNew.Size = new System.Drawing.Size(81, 33);
             btnNew.TabIndex = 28;
             btnNew.Text = "New";
             btnNew.UseVisualStyleBackColor = true;
@@ -142,10 +143,10 @@
             // 
             // btnLoad
             // 
-            btnLoad.Location = new System.Drawing.Point(46, 629);
-            btnLoad.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            btnLoad.Location = new System.Drawing.Point(25, 295);
+            btnLoad.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             btnLoad.Name = "btnLoad";
-            btnLoad.Size = new System.Drawing.Size(150, 70);
+            btnLoad.Size = new System.Drawing.Size(81, 33);
             btnLoad.TabIndex = 1;
             btnLoad.Text = "Load";
             btnLoad.UseVisualStyleBackColor = true;
@@ -155,10 +156,10 @@
             // 
             label5.AutoSize = true;
             label5.ForeColor = System.Drawing.Color.Black;
-            label5.Location = new System.Drawing.Point(19, 518);
-            label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label5.Location = new System.Drawing.Point(10, 243);
+            label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(99, 32);
+            label5.Size = new System.Drawing.Size(50, 15);
             label5.TabIndex = 25;
             label5.Text = "Country";
             // 
@@ -166,38 +167,38 @@
             // 
             label4.AutoSize = true;
             label4.ForeColor = System.Drawing.Color.Black;
-            label4.Location = new System.Drawing.Point(19, 420);
-            label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label4.Location = new System.Drawing.Point(10, 197);
+            label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(55, 32);
+            label4.Size = new System.Drawing.Size(28, 15);
             label4.TabIndex = 24;
             label4.Text = "City";
             // 
             // txtPassword
             // 
-            txtPassword.Location = new System.Drawing.Point(139, 320);
-            txtPassword.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            txtPassword.Location = new System.Drawing.Point(75, 150);
+            txtPassword.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new System.Drawing.Size(515, 39);
+            txtPassword.Size = new System.Drawing.Size(279, 23);
             txtPassword.TabIndex = 23;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.ForeColor = System.Drawing.Color.Black;
-            label3.Location = new System.Drawing.Point(19, 322);
-            label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label3.Location = new System.Drawing.Point(10, 151);
+            label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(111, 32);
+            label3.Size = new System.Drawing.Size(57, 15);
             label3.TabIndex = 22;
             label3.Text = "Password";
             // 
             // txtEmail
             // 
-            txtEmail.Location = new System.Drawing.Point(139, 222);
-            txtEmail.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            txtEmail.Location = new System.Drawing.Point(75, 104);
+            txtEmail.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new System.Drawing.Size(515, 39);
+            txtEmail.Size = new System.Drawing.Size(279, 23);
             txtEmail.TabIndex = 21;
             txtEmail.Validating += txtEmail_Validating;
             // 
@@ -205,82 +206,93 @@
             // 
             label2.AutoSize = true;
             label2.ForeColor = System.Drawing.Color.Black;
-            label2.Location = new System.Drawing.Point(19, 224);
-            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label2.Location = new System.Drawing.Point(10, 105);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(71, 32);
+            label2.Size = new System.Drawing.Size(36, 15);
             label2.TabIndex = 20;
             label2.Text = "Email";
             // 
             // txtName
             // 
-            txtName.Location = new System.Drawing.Point(139, 124);
-            txtName.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            txtName.Location = new System.Drawing.Point(75, 58);
+            txtName.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             txtName.Name = "txtName";
-            txtName.Size = new System.Drawing.Size(515, 39);
+            txtName.Size = new System.Drawing.Size(279, 23);
             txtName.TabIndex = 19;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.ForeColor = System.Drawing.Color.Black;
-            label1.Location = new System.Drawing.Point(19, 128);
-            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label1.Location = new System.Drawing.Point(10, 60);
+            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(78, 32);
+            label1.Size = new System.Drawing.Size(39, 15);
             label1.TabIndex = 18;
             label1.Text = "Name";
             // 
             // txtID
             // 
-            txtID.Location = new System.Drawing.Point(139, 26);
-            txtID.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            txtID.Location = new System.Drawing.Point(75, 12);
+            txtID.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             txtID.Name = "txtID";
-            txtID.Size = new System.Drawing.Size(515, 39);
+            txtID.Size = new System.Drawing.Size(279, 23);
             txtID.TabIndex = 17;
             // 
             // lbPassword
             // 
             lbPassword.AutoSize = true;
             lbPassword.ForeColor = System.Drawing.Color.Black;
-            lbPassword.Location = new System.Drawing.Point(19, 30);
-            lbPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lbPassword.Location = new System.Drawing.Point(10, 14);
+            lbPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             lbPassword.Name = "lbPassword";
-            lbPassword.Size = new System.Drawing.Size(34, 32);
+            lbPassword.Size = new System.Drawing.Size(17, 15);
             lbPassword.TabIndex = 16;
             lbPassword.Text = "Id";
             // 
             // panel3
             // 
+            panel3.Controls.Add(btnSort);
             panel3.Controls.Add(label7);
             panel3.Controls.Add(btnClear);
             panel3.Controls.Add(cbxCity);
             panel3.Controls.Add(cbxCountry);
             panel3.Controls.Add(label6);
             panel3.Controls.Add(txtSearchBox);
-            panel3.Location = new System.Drawing.Point(6, 13);
-            panel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            panel3.Location = new System.Drawing.Point(3, 6);
+            panel3.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(669, 288);
+            panel3.Size = new System.Drawing.Size(360, 135);
             panel3.TabIndex = 0;
+            // 
+            // btnSort
+            // 
+            btnSort.Location = new System.Drawing.Point(213, 9);
+            btnSort.Name = "btnSort";
+            btnSort.Size = new System.Drawing.Size(139, 23);
+            btnSort.TabIndex = 31;
+            btnSort.Text = "sort ascending";
+            btnSort.UseVisualStyleBackColor = true;
+            btnSort.Click += button2_Click;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.ForeColor = System.Drawing.Color.Black;
-            label7.Location = new System.Drawing.Point(19, 139);
-            label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label7.Location = new System.Drawing.Point(10, 65);
+            label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(68, 32);
+            label7.Size = new System.Drawing.Size(34, 15);
             label7.TabIndex = 30;
             label7.Text = "filter:";
             // 
             // btnClear
             // 
-            btnClear.Location = new System.Drawing.Point(503, 192);
-            btnClear.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            btnClear.Location = new System.Drawing.Point(271, 90);
+            btnClear.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             btnClear.Name = "btnClear";
-            btnClear.Size = new System.Drawing.Size(150, 47);
+            btnClear.Size = new System.Drawing.Size(81, 22);
             btnClear.TabIndex = 1;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
@@ -290,10 +302,10 @@
             // 
             cbxCity.FormattingEnabled = true;
             cbxCity.Items.AddRange(new object[] { "Hanoi ", "Ho Chi Minh City ", "Da Nang", "Hai Phong", "Can Tho", "Nha Trang", "Hue", "Vinh", "Qui Nhon", "Ha Long" });
-            cbxCity.Location = new System.Drawing.Point(139, 132);
-            cbxCity.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            cbxCity.Location = new System.Drawing.Point(75, 62);
+            cbxCity.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             cbxCity.Name = "cbxCity";
-            cbxCity.Size = new System.Drawing.Size(249, 40);
+            cbxCity.Size = new System.Drawing.Size(136, 23);
             cbxCity.TabIndex = 29;
             cbxCity.SelectedIndexChanged += cbxCity_SelectedIndexChanged;
             // 
@@ -301,10 +313,10 @@
             // 
             cbxCountry.FormattingEnabled = true;
             cbxCountry.Items.AddRange(new object[] { "Hanoi ", "Ho Chi Minh City ", "Da Nang", "Hai Phong", "Can Tho", "Nha Trang", "Hue", "Vinh", "Qui Nhon", "Ha Long" });
-            cbxCountry.Location = new System.Drawing.Point(396, 132);
-            cbxCountry.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            cbxCountry.Location = new System.Drawing.Point(213, 62);
+            cbxCountry.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             cbxCountry.Name = "cbxCountry";
-            cbxCountry.Size = new System.Drawing.Size(258, 40);
+            cbxCountry.Size = new System.Drawing.Size(141, 23);
             cbxCountry.TabIndex = 28;
             cbxCountry.SelectedIndexChanged += cbxCountry_SelectedIndexChanged;
             // 
@@ -312,41 +324,41 @@
             // 
             label6.AutoSize = true;
             label6.ForeColor = System.Drawing.Color.Black;
-            label6.Location = new System.Drawing.Point(19, 77);
-            label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label6.Location = new System.Drawing.Point(10, 36);
+            label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(87, 32);
+            label6.Size = new System.Drawing.Size(44, 15);
             label6.TabIndex = 28;
             label6.Text = "search:";
             // 
             // txtSearchBox
             // 
-            txtSearchBox.Location = new System.Drawing.Point(139, 77);
-            txtSearchBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            txtSearchBox.Location = new System.Drawing.Point(75, 36);
+            txtSearchBox.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             txtSearchBox.Name = "txtSearchBox";
-            txtSearchBox.Size = new System.Drawing.Size(515, 39);
+            txtSearchBox.Size = new System.Drawing.Size(279, 23);
             txtSearchBox.TabIndex = 0;
             txtSearchBox.TextChanged += txtSearchBox_TextChanged;
             // 
             // panel2
             // 
             panel2.Controls.Add(dgvMember);
-            panel2.Location = new System.Drawing.Point(678, 0);
-            panel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            panel2.Location = new System.Drawing.Point(365, 0);
+            panel2.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(1465, 1227);
+            panel2.Size = new System.Drawing.Size(789, 575);
             panel2.TabIndex = 1;
             // 
             // dgvMember
             // 
             dgvMember.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvMember.Location = new System.Drawing.Point(20, 19);
-            dgvMember.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            dgvMember.Location = new System.Drawing.Point(11, 9);
+            dgvMember.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             dgvMember.Name = "dgvMember";
             dgvMember.RowHeadersWidth = 82;
             dgvMember.RowTemplate.Height = 41;
             dgvMember.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            dgvMember.Size = new System.Drawing.Size(1211, 1026);
+            dgvMember.Size = new System.Drawing.Size(652, 481);
             dgvMember.TabIndex = 0;
             dgvMember.CellDoubleClick += dgvMember_CellDoubleClick;
             // 
@@ -355,44 +367,44 @@
             contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { loadToolStripMenuItem, newToolStripMenuItem, deleteToolStripMenuItem, closeToolStripMenuItem });
             contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new System.Drawing.Size(159, 156);
+            contextMenuStrip1.Size = new System.Drawing.Size(108, 92);
             // 
             // loadToolStripMenuItem
             // 
             loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            loadToolStripMenuItem.Size = new System.Drawing.Size(158, 38);
+            loadToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             loadToolStripMenuItem.Text = "Load";
             loadToolStripMenuItem.Click += loadToolStripMenuItem_Click;
             // 
             // newToolStripMenuItem
             // 
             newToolStripMenuItem.Name = "newToolStripMenuItem";
-            newToolStripMenuItem.Size = new System.Drawing.Size(158, 38);
+            newToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             newToolStripMenuItem.Text = "New";
             newToolStripMenuItem.Click += newToolStripMenuItem_Click;
             // 
             // deleteToolStripMenuItem
             // 
             deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            deleteToolStripMenuItem.Size = new System.Drawing.Size(158, 38);
+            deleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             deleteToolStripMenuItem.Text = "Delete";
             // 
             // closeToolStripMenuItem
             // 
             closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            closeToolStripMenuItem.Size = new System.Drawing.Size(158, 38);
+            closeToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             closeToolStripMenuItem.Text = "Close";
             // 
             // FormMemberManagerment
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1924, 1060);
+            ClientSize = new System.Drawing.Size(1036, 497);
             ContextMenuStrip = contextMenuStrip1;
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(panel3);
-            Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             Name = "FormMemberManagerment";
             Text = "Member Managerment";
             Load += FormMemberManagerment_Load;
@@ -441,5 +453,6 @@
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnSort;
     }
 }

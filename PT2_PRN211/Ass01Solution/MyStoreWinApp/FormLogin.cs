@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessObject;
+using DataAccess.Repository;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +16,8 @@ namespace MyStoreWinApp
     {
         private string user;
         private string pass;
+        public IMemberRepository memRespository;
+
 
         public FormLogin()
         {
@@ -31,31 +35,73 @@ namespace MyStoreWinApp
         {
             txtEmail.Text = user;
             txtPassword.Text = pass;
+            memRespository = new MemberRepository();
 
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(txtEmail.Text) || String.IsNullOrEmpty(txtPassword.Text))
+            //check null
+            if (string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtPassword.Text))
             {
                 MessageBox.Show("Email or password must not null","Announcement");
                 return;
 
             }
-            if (txtEmail.Text == user && txtPassword.Text == pass)
+
+            if (memRespository.GetMemberByEP(txtEmail.Text, txtPassword.Text) != null)
             {
-                FormMemberManagerment form = new FormMemberManagerment();
-                this.Hide();
-                form.ShowDialog();
-                txtEmail.Text = user;
-                txtPassword.Text = pass;
-                this.Show();
+                memberRoll();
+
             }
+            else if (txtEmail.Text == user && txtPassword.Text == pass)
+            {
+                AdminRoll();
+
+            }
+            //// check acccount
+            //if (txtEmail.Text == user && txtPassword.Text == pass)
+            //{
+            //}
             else
             {
                 MessageBox.Show("Wrong Username, Password", "Announcement");
                 return;
             }
+        }
+        // Admin window
+        void AdminRoll()
+        {
+            FormMemberManagerment form = new FormMemberManagerment()
+            {
+                Text = "Memeber Manager",
+                memberRepository1 = memRespository
+            };
+            this.Hide();
+            form.ShowDialog();
+            txtEmail.Text = user;
+            txtPassword.Text = pass;
+            this.Show();
+        }
+        // memeberWindow
+        void memberRoll()
+        {
+            MemberObject mem = memRespository.GetMemberByEP(txtEmail.Text, txtPassword.Text);
+
+            FormMemberDetail form1 = new FormMemberDetail()
+            {
+                Text = "Your info detals",
+                insertOrUpdate = true,
+                member = mem,
+                memberRepository = this.memRespository
+            };
+            this.Hide();
+            if (form1.ShowDialog() == DialogResult.OK)
+            {
+                //LoadMemberList();
+                //bindingSource.Position = bindingSource.Count - 1;
+            }
+            this.Show();
 
         }
 
