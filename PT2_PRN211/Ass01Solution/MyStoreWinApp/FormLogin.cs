@@ -33,8 +33,8 @@ namespace MyStoreWinApp
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
-            txtEmail.Text = user;
-            txtPassword.Text = pass;
+            //txtEmail.Text = user;
+            //txtPassword.Text = pass;
             memRespository = new MemberRepository();
 
         }
@@ -44,7 +44,7 @@ namespace MyStoreWinApp
             //check null
             if (string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtPassword.Text))
             {
-                MessageBox.Show("Email or password must not null","Announcement");
+                MessageBox.Show("Email or password must not null", "Announcement");
                 return;
 
             }
