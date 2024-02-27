@@ -1,0 +1,12 @@
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\DataAccess.sourcelink.json
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass02Solution\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll

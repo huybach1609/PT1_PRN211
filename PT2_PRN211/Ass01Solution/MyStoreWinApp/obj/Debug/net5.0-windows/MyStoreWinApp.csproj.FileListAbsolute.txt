@@ -60,6 +60,7 @@ D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass01Solution\MyStoreWi
 D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass01Solution\MyStoreWinApp\obj\Debug\net5.0-windows\MyStoreWinApp.AssemblyInfoInputs.cache
 D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass01Solution\MyStoreWinApp\obj\Debug\net5.0-windows\MyStoreWinApp.AssemblyInfo.cs
 D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass01Solution\MyStoreWinApp\obj\Debug\net5.0-windows\MyStoreWinApp.csproj.CoreCompileInputs.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass01Solution\MyStoreWinApp\obj\Debug\net5.0-windows\MyStoreWinApp.sourcelink.json
 D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass01Solution\MyStoreWinApp\obj\Debug\net5.0-windows\MyStoreWinApp.csproj.CopyComplete
 D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass01Solution\MyStoreWinApp\obj\Debug\net5.0-windows\MyStoreWinApp.dll
 D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT2_PRN211\Ass01Solution\MyStoreWinApp\obj\Debug\net5.0-windows\refint\MyStoreWinApp.dll
