@@ -7,4 +7,5 @@ Lab and assignment assigned by Nguyen Thai Cuong
 	- AutomobileSolution-Lab2 (Lab2)
 - PT2_PRN211
 	- Ass01Solution (Assigment1)
+   	- Ass02Solution (Assigment2)
 
