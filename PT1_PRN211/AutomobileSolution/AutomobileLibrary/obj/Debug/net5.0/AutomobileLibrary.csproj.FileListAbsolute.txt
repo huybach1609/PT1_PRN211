@@ -9,3 +9,14 @@ D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution\AutomobileLibrary\
 D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\refint\AutomobileLibrary.dll
 D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.pdb
 D:\Workspace\FU_Spring24\PRN211\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\ref\AutomobileLibrary.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\bin\Debug\net5.0\AutomobileLibrary.deps.json
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\bin\Debug\net5.0\AutomobileLibrary.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\bin\Debug\net5.0\AutomobileLibrary.pdb
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.AssemblyInfoInputs.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.AssemblyInfo.cs
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.csproj.CoreCompileInputs.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\refint\AutomobileLibrary.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\AutomobileLibrary.pdb
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT1_PRN211\AutomobileSolution\AutomobileLibrary\obj\Debug\net5.0\ref\AutomobileLibrary.dll

@@ -93,9 +93,9 @@
             txtPassword.Location = new System.Drawing.Point(228, 209);
             txtPassword.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             txtPassword.Name = "txtPassword";
-            txtPassword.PasswordChar = '*';
             txtPassword.Size = new System.Drawing.Size(513, 39);
             txtPassword.TabIndex = 5;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // FormLogin
             // 
