@@ -1586,11 +1586,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\FU_Spring24\\PRN211\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileLibrary\\AutomobileLibrary.csproj",
+      "projectUniqueName": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileLibrary\\AutomobileLibrary.csproj",
       "projectName": "AutomobileLibrary",
-      "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileLibrary\\AutomobileLibrary.csproj",
+      "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileLibrary\\AutomobileLibrary.csproj",
       "packagesPath": "C:\\Users\\bachLH\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileLibrary\\obj\\",
+      "outputPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bachLH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1648,8 +1648,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.SqlClient' 2.1.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "Microsoft.Data.SqlClient",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

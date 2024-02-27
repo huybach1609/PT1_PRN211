@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PHz0vIUsCwaWPdwnBRmv3AEKw1G1x5NQ6RTUpYQBWuYlAotQKgvC30qG9n0DCsBqmAwau1389Sl5tMHHHTQBnQ==",
+  "dgSpecHash": "GSKhHsZgSEYTeCsa/97jfs9r0Mchan0pSYj51bRQtpGcDBxGCYZYxA7cItp1FXn1ZdykYsXO06UclY/zwue2VA==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileWinApp\\AutomobileWinApp.csproj",
+  "projectFilePath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT1_PRN211\\AutomobileSolution-Lab2\\AutomobileWinApp\\AutomobileWinApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bachLH\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\bachLH\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.2\\microsoft.data.sqlclient.2.1.2.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QW2XX5WReZoiofM5nAmgjTiI0iCIL8Z69EOGvvAsbFpgoYIaXWCLq+DQs2FCUK9JckJ29Jy/DtZTWUkYhYk9dw==",
+  "dgSpecHash": "6WrEqIgBdv56/tmWJbjUq1DxnmvQ/6AnHFtc+hzKOcexEVOvC2Lr28aSdY9YQafIp8IsuJwhRyeuB0/2pknG8g==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj",
+  "projectFilePath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bachLH\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\bachLH\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

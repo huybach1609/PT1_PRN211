@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj": {}
+    "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\bachLH\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\BusinessObject\\obj\\",
+        "outputPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bachLH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,18 +55,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj": {
+    "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\bachLH\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\DataAccess\\obj\\",
+        "outputPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bachLH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj"
+              "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -114,18 +114,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj": {
+    "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj",
+        "projectUniqueName": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj",
         "projectName": "MyStoreWinApp",
-        "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj",
+        "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\MyStoreWinApp.csproj",
         "packagesPath": "C:\\Users\\bachLH\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\obj\\",
+        "outputPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\MyStoreWinApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bachLH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -142,11 +142,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj"
+              "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj"
+              "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Workspace\\FU_Spring24\\PRN211\\PRN211_SE1752\\PT2_PRN211\\Ass01Solution\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -189,7 +189,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
