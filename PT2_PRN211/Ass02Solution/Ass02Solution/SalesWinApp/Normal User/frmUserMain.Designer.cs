@@ -39,7 +39,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(543, 67);
+            label1.Location = new Point(24, 28);
             label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
             label1.Size = new Size(199, 86);
@@ -49,10 +49,10 @@
             // 
             // btnProfile
             // 
-            btnProfile.Location = new Point(283, 234);
-            btnProfile.Margin = new Padding(5, 5, 5, 5);
+            btnProfile.Location = new Point(24, 142);
+            btnProfile.Margin = new Padding(5);
             btnProfile.Name = "btnProfile";
-            btnProfile.Size = new Size(736, 56);
+            btnProfile.Size = new Size(414, 56);
             btnProfile.TabIndex = 2;
             btnProfile.Text = "View Your Profile";
             btnProfile.UseVisualStyleBackColor = true;
@@ -60,10 +60,10 @@
             // 
             // btnOrders
             // 
-            btnOrders.Location = new Point(284, 355);
-            btnOrders.Margin = new Padding(5, 5, 5, 5);
+            btnOrders.Location = new Point(25, 263);
+            btnOrders.Margin = new Padding(5);
             btnOrders.Name = "btnOrders";
-            btnOrders.Size = new Size(736, 56);
+            btnOrders.Size = new Size(414, 56);
             btnOrders.TabIndex = 3;
             btnOrders.Text = "View Your Orders";
             btnOrders.UseVisualStyleBackColor = true;
@@ -71,10 +71,10 @@
             // 
             // btnClose
             // 
-            btnClose.Location = new Point(283, 477);
-            btnClose.Margin = new Padding(5, 5, 5, 5);
+            btnClose.Location = new Point(24, 385);
+            btnClose.Margin = new Padding(5);
             btnClose.Name = "btnClose";
-            btnClose.Size = new Size(736, 56);
+            btnClose.Size = new Size(414, 56);
             btnClose.TabIndex = 4;
             btnClose.Text = "Close";
             btnClose.UseVisualStyleBackColor = true;
@@ -82,8 +82,8 @@
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(1051, 96);
-            btnLogout.Margin = new Padding(5, 5, 5, 5);
+            btnLogout.Location = new Point(25, 480);
+            btnLogout.Margin = new Padding(5);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(174, 62);
             btnLogout.TabIndex = 6;
@@ -95,13 +95,13 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1300, 650);
+            ClientSize = new Size(467, 573);
             Controls.Add(btnLogout);
             Controls.Add(btnClose);
             Controls.Add(btnOrders);
             Controls.Add(btnProfile);
             Controls.Add(label1);
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "frmUserMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu";

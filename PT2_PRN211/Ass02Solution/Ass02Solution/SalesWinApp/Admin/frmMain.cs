@@ -115,7 +115,6 @@ namespace SalesWinApp
         private void frmMain_Load(object sender, EventArgs e)
         {
             //infoText.Text = "";
-
         }
 
         private void label1_Click(object sender, EventArgs e)
