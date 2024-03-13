@@ -1,0 +1,15 @@
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.sourcelink.json
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
+D:\Workspace\FU_Spring24\PRN211\PRN211_SE1752\PT3_PRN211\eStore-master\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
